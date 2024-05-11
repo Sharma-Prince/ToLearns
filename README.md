@@ -5,10 +5,10 @@ Explore the content of this repository to find valuable resources and informatio
 
 This repository covers various topics related to Android development, including but not limited to:
 
-- [Activities](docs\activities.md)
-- [Fragments](docs\fragments.md)
-- [Services](docs\services.md)
-- [Broadcast Receivers](docs\broadcast_receivers.md)
+- [Activities](activities.md)
+- [Fragments](fragments.md)
+- [Services](services.md)
+- [Broadcast Receivers](broadcast_receivers.md)
 - User Interface (Layouts, Views, Custom Views)
 - Data Storage (SharedPreferences, SQLite, Room Persistence Library)
 - Networking (HTTP, Retrofit, Volley)
