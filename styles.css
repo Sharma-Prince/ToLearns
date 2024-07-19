@@ -27,7 +27,7 @@ body {
 
 textarea {
     width: 100%;
-    height: 300px;
+    height: 200px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 6px;
@@ -44,8 +44,22 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 button:hover {
     background-color: #0056b3;
+}
+
+#savedNotesContainer {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.saved-note {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
 }
