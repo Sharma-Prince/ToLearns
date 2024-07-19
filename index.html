@@ -7,12 +7,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="note-container">
-        <h1>NotebookLM Style Notes</h1>
-        <textarea id="noteArea" placeholder="Write your note here..."></textarea>
-        <button onclick="saveNote()">Save Note</button>
-        <div id="savedNotesContainer"></div>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Pages</h2>
+            <ul id="pageList"></ul>
+            <button onclick="createNewPage()">New Page</button>
+        </div>
+        <div class="main">
+            <h1 id="pageTitle">Select a Page</h1>
+            <ul id="noteList"></ul>
+            <button onclick="openNotePopup()">New Note</button>
+        </div>
     </div>
+
+    <div id="notePopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closeNotePopup()">&times;</span>
+            <textarea id="noteContent" placeholder="Write your note here..."></textarea>
+            <button onclick="saveNote()">Save Note</button>
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
